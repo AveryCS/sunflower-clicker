@@ -1,0 +1,266 @@
+body{
+  background: url(../images/sunflowerfield.jpeg); no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  cursor: url(https://cur.cursors-4u.net/nature/nat-9/nat839.cur), auto !important;
+
+}
+
+
+.aboutMeLink{
+    display: flex;
+    justify-content: center; 
+    padding-bottom: 2em; 
+}
+.aboutMeModal{
+  display: none; 
+  position: fixed; 
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4); 
+}
+
+.aboutMeModalContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: x-large;
+  padding-bottom: 1em;
+  border: 5px solid #00a6bf;
+  
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  
+  width: 80%;
+}
+
+.headshotPhoto{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+
+.topButtons{
+    padding: 0;
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-around;
+
+    list-style-type: none;
+    background-color: #edc833da;
+    color: #00a6bf;
+    height: 2em;
+    font-size: x-large;
+    font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 3em;
+}
+
+.cookieLink a:visited{
+  color: #00a6bf;
+  text-decoration: none;
+
+}
+
+.cookieLink {
+  color: #00a6bf;
+  text-decoration: none;
+
+}
+.links{
+  display: flex; 
+  justify-content: center;
+  float: right;
+  padding-left: 3em;
+ 
+  
+}
+
+
+.AutoAndMultiplier{
+    display: flex;  
+    justify-content: center;
+    justify-content: space-around;
+}
+/* .DonutCountButtonAndCount{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em 25em 1em 25em; 
+    max-width: 20em; */
+/* } */
+.IncreaseDonutCountButton{
+   
+    width: 15%;
+    min-width: 200px;
+    
+}
+
+
+
+
+
+.IncreaseDonutCountButton:active{
+  transform: scale(1.1);
+}
+
+/* .IncreaseDonutCountButton:hover{
+  transform: scale(1.1);
+} */
+
+.container{
+  display: flex;  
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.aboutMeClose{
+  color: #aaa;
+  float: left;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  right: 240px;
+}
+
+
+.aboutMeClose:hover,
+  .aboutMeClose:focus{
+    color: black;
+  text-decoration: none;
+  cursor: pointer;
+  }
+
+.innerbackground{
+  background-color: #ffffff;
+  margin-left: 20em;
+  margin-right: 20em;
+  margin-top: 5em;
+  height: 100%;
+  padding-top: 3em;
+  padding-bottom: 10em;
+    border-radius: 25px;
+    border: 5px solid #0a7224;
+    padding: 20px;
+  color: #0a7224;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  
+    
+    
+
+}
+
+
+
+
+.DonutCountDisplay{
+    display: flex;  
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+.GameRestart{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em 25em 1em 25em; 
+}
+/* Below is the CSS for the Restart Game button
+
+/* CSS */
+.RestartGame {
+  background-color:#00a6bf;
+   /* #0078d0; */
+  border: 0;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  padding: 16px 21px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  
+}
+
+.RestartGame:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 92%;
+}
+
+.RestartGame:hover {
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .RestartGame{
+    padding: 16px 48px;
+  }
+  .companyModal{
+    display: none; 
+  position: fixed; 
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;  
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  }
+  .modalContent{
+    background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; 
+  }
+  .companyClose{
+    color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  }
+  .companyClose:hover,
+  .companyClose:focus{
+    color: black;
+  text-decoration: none;
+  cursor: pointer;
+  }
+
+}
