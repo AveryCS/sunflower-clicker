@@ -178,9 +178,11 @@ body{
 
 .GameRestart{
     display: flex;  
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    al
     padding: 1em 25em 1em 25em; 
+    flex-wrap: wrap;
 }
 /* Below is the CSS for the Restart Game button
 
