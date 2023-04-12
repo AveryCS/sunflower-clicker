@@ -1,16 +1,24 @@
-# Basic Browser JavaScript - Donut Maker
 
-###### A tribute to [Cookie Clicker](https://orteil.dashnet.org/cookieclicker/)
 
-[Donut Maker Requirements](https://wecancodeit-materials.netlify.app/exercises/mastery/cookie-click-counter-calamity/)
+# [Click here](http://sunflower-clicker.herokuapp.com/) to play the Sunflower Clicker game
 
-## To Run This Application
+# This game is a tribute to [Cookie Clicker](https://orteil.dashnet.org/cookieclicker/)
 
-- `git clone` the app
-- `cd` into the application
-- `npm install` to install the dependencies
+How to play:
 
-### Working with the Application
+Click on the sunflower button to increase your sunflower count.
 
-- `npm test` will run your tests
-- `npm start` will spin up the application
+You will need 10 sunflowers before you can purchase a multiplier and 100 sunflowers before you can purchase an autoclicker.
+
+The more autoclickers and multipliers you are able to purchase, the more quickly your sunflower count will increase.
+
+So sit back, relax, and add more sunflowers to your field!
+
+Happy clicking!
+
+
+
+
+
+
+
